@@ -1,8 +1,9 @@
-def evenOrOdd(number):
-  if(number == 3):
+def evenOrOdd():
+ number = int(input("Enter a number: "))
+ check = number % 2 
+ if check > 0:
     print("odd")
-  elif (number == 4):
+ else:
     print("even")
-evenOrOdd(3)
-evenOrOdd(4)
-
+evenOrOdd()
+    
