@@ -1,8 +1,8 @@
 def commonletter():
-  firstword = input("Enter a first word: ")
-  secondword = input("Enter a second word: ")
-  wordscheck=list(set(firstword)&set(secondword))
-  for letter in wordscheck:
+  firstword = "fraction"
+  secondword = "function"
+  letterscheck=list(set(firstword)&set(secondword))
+  for letter in letterscheck:
     print(letter)
 commonletter()
 
