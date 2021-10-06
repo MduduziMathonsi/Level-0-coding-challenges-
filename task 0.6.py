@@ -6,7 +6,7 @@ def maximum(num1,num2,num3):
  elif num3 > num1 and num3 > num2 :
      print(num3)
  else:
-     #if user entered two or more same numbers and it happens to be the highest numbers
+     #if two or more same numbers happens to be the highest numbers
      print("Two or more number/s are equal and are maximum numbers") 
 
 maximum(10,34,50)
