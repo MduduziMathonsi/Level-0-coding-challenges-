@@ -1,4 +1,7 @@
-def maximum(num1,num2,num3):
+def maximum():
+ num1 = int(10)
+ num2 = int(20)
+ num3 = int(15)
  if num1 > num2 and num1 > num3 :
    print(num1)
  elif num2 > num1 and num2 > num3 :
@@ -9,4 +12,4 @@ def maximum(num1,num2,num3):
      #if two or more same numbers happens to be the highest numbers
      print("Two or more number/s are equal and are maximum numbers") 
 
-maximum(10,34,50)
+maximum()
