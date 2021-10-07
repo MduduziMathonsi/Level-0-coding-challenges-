@@ -1,4 +1,4 @@
 def hello(name):
-     print("Hello" " "+name)
-hello("Tshepo!") 
-#the function output is Hello Tshepo! as per the requirement     
+     print(f"Hello {name}!") # @eckard thanks for f-string formatting syntax 
+hello("Tshepo") 
+ 
