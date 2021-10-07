@@ -1,5 +1,4 @@
-def hoursminutes():
- number = 61
+def hoursminutes(number):
  convnumber = int(number)
  h= int(convnumber / 60)
  m = int(convnumber-(1*60))
@@ -9,7 +8,7 @@ def hoursminutes():
   print(h,"hours :",m,"minutes")
  else:
    print("Abort Mission Impossible :-)")
-hoursminutes()
+hoursminutes(61)
 
 
 
