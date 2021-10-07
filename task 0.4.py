@@ -1,5 +1,5 @@
 def evenOrOdd():
- number = int(input("Enter a number: "))
+ number =int(8)
  check = number % 2 
  if check > 0:
     print("odd")
