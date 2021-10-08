@@ -1,7 +1,6 @@
 def commonletter(firstword,secondword):
   words=set(firstword)&set(secondword)
-  for letter in words:
-    print(letter,end = ",")
+  print(*{letter for letter in words},sep=(','))
 commonletter("fraction","function")
-#hi the code compiles on my end Output : f,c,i,o,n,t,
+
 

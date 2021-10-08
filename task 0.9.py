@@ -1,7 +1,6 @@
 def vowels(word):
  word = str.lower(word)
- for letter in "aeiou":
-  if letter in word:
-    print(letter,end = ",")
-vowels("Sunshine")  
-#hi the code compiles on my end Output : e,i,u,   
+ print(*{letter for letter in word if letter in 'aeiou'},sep=(','))
+vowels("Sunshine") 
+
+
