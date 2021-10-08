@@ -4,4 +4,4 @@ def vowels(word):
   if letter in word:
     print(letter,end = ",")
 vowels("Sunshine")  
-    
+#hi the code compiles on my end Output : e,i,u,   
